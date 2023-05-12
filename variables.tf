@@ -21,7 +21,6 @@ variable "github_organization_secrets" {
       terraform_key = "notification_webhook"
     }
   }
-  sensitive = true
 }
 
 variable "github_organization_variables" {
@@ -32,5 +31,4 @@ variable "github_organization_variables" {
   }))
   nullable  = true
   default   = {}
-  sensitive = false
 }
