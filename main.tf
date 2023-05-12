@@ -3,5 +3,8 @@ terraform {
     github = {
       source = "integrations/github"
     }
+    tfe = {
+      source = "hashicorp/tfe"
+    }
   }
 }
